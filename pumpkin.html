@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pumpkin Smash game</title>
+    <link rel="icon" href="image/jpg" href="https://live.staticflickr.com/2359/1808485678_0619515708_b.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <h1>PUMPKIN SMASH</h1>
+    <h2>Smash pumpkins for fun</h2>
+    <hr>
+    <img src="https://images.pexels.com/photos/4061953/pexels-photo-4061953.jpeg" width="250" height="250">
+  </head>
+  <li>Select a box to smash</li>
+  <li>You totally have 3 lives</li>
+  <li>There will be either a prize a candle, or a skull</li>
+  <li>A prize gives you points, A candle will cause you to lose a life, A skull means game over</li>
+  <li>The highest score wins</li>
+
+  <!-- This shivaPumpkinSmash javascript file has the code snippet for what happens when a click is made -->
+  <script src="shivasPumpkinSmash.js"></script>
+
+  <body>
+      <table border=1>
+        <tr>
+          <td id="1" onclick="shivaPumpkinSmash('skull', 1)">?</td>
+          <td id=2 onclick="shivaPumpkinSmash('candle', 2)">?</td>
+          <td id=3 onclick="shivaPumpkinSmash('pumpkin',3)">?</td>
+          <td id=4 onclick="shivaPumpkinSmash('skull', 4)">?</td>
+      </tr>
+      <tr>
+        <td id=5 onclick="shivaPumpkinSmash('pumpkin', 5)">?</td>
+        <td id=6 onclick="shivaPumpkinSmash('candle', 6)">?</td>
+        <td id=7 onclick="shivaPumpkinSmash('skull', 7)">?</td>
+        <td id=8 onclick="shivaPumpkinSmash('candle', 8)">?</td>
+      </tr>
+      <tr>
+        <td id=9 onclick="shivaPumpkinSmash('candle', 9)">?</td>
+        <td id=10 onclick="shivaPumpkinSmash('skull', 10)">?</td>
+        <td id=11 onclick="shivaPumpkinSmash('pumpkin', 11)">?</td>
+        <td id=12 onclick="shivaPumpkinSmash('candle', 12)">?</td>
+      </tr>
+      <tr>
+        <td id=13 onclick="shivaPumpkinSmash('skull', 13)">?</td>
+        <td id=14 onclick="shivaPumpkinSmash('pumpkin', 14)">?</td>
+        <td id=15 onclick="shivaPumpkinSmash('candle', 15)">?</td>
+        <td id=16 onclick="shivaPumpkinSmash('candle', 16)">?</td>
+      </tr>
+    </table>
+    <button type="button" onclick="resetGame()">Restart</button>
+</body>
+</html>
